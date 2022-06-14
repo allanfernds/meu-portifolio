@@ -13,6 +13,7 @@
 }
 
 body{
+    width: 100%;
     background-color: var(--preto-fundo);
 }
 .top-bar-header{
@@ -288,7 +289,7 @@ button:hover{
 
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+ 
     align-items: center;
     justify-content: center;
 

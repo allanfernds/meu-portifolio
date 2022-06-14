@@ -3,18 +3,30 @@ section{
     justify-content: center;
     align-items: center;
 }
-
+.top-bar-header{
+    position: relative;
+}
 
 nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 nav .logo{
     font-size: 19px;
 }
-
+.nav-itens ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 8px;
+}
+.nav-itens ul li{
+    margin: 5px 0;
+}
 .nav-itens{
     margin-top: 20px ;
 }
