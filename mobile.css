@@ -1,9 +1,9 @@
-body{
-    display: flex;
+section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 
 nav{
     display: flex;
@@ -17,6 +17,17 @@ nav .logo{
 
 .nav-itens{
     margin-top: 20px ;
+}
+
+/* Subtitle */
+.subtitle{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subtitle{
+    align-items: center;
+    justify-content: center;
 }
 
 /* about */
