@@ -220,8 +220,8 @@ button:hover{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 60%px;
-    height: 50%px;
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
     background-color: var(--preto-frente);
     display: flex;
@@ -237,8 +237,8 @@ button:hover{
     flex-direction: row;
 }
 .learn-item{
-    margin: 20px;
-    width: 400px;
+    margin: 15px;
+    width: 300px;
     height: 170px;
     background: #FFFFFF;
     border-radius: 20px;
@@ -251,9 +251,11 @@ button:hover{
     align-items:flex-start;
 }
 .learn-item h3{
+    font-size: 16px;
     color: var(--azul);
 }
 .learn-item p{
+    margin: 2px;
     color: rgb(64, 64, 64);
 }
 
@@ -284,12 +286,12 @@ button:hover{
 }
 
 .projects-content .projects{
-    width: 100%; 
+    width: 80%; 
     height: 100%;
 
     display: flex;
     flex-direction: row;
- 
+    flex-wrap:wrap;
     align-items: center;
     justify-content: center;
 
