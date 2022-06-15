@@ -1,6 +1,6 @@
 
 .top-bar-header{
-    width: 100%px;
+    width: 100%;
     position: relative;
 
 }
@@ -108,5 +108,3 @@ footer{
     bottom: 0;
     left: 0;
 }
-
-
