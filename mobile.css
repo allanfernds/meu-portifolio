@@ -1,6 +1,8 @@
-
+html{
+    width: 100vw;
+}
 .top-bar-header{
-    width: 100%;
+    width: 100vw;
     position: relative;
 
 }
@@ -42,17 +44,21 @@ nav .logo{
 }
 
 .about .about-content{
-    width: 500px;
+    width: 100vw;
     flex-direction: column;
 }
 
 .about .about-content .about-info{
-
+ 
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
+.about .about-content .about-info p{
+    width: 300px;
+    height: 270px;
+    text-align: center;
+}
 .about .more-about{
     flex-direction: column;
     align-items: center;
@@ -64,39 +70,57 @@ nav .logo{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    width: 400px;
 }
 
 /* Learn */
 
 .learn-section .learn-content{
-    width: 400px;
+    width: 100vw;
     padding: 15px 0;
 }
 
 .learn-section .learn-bottom{
+    width: 100vw;
     flex-direction: column;
 }
-
+.learn-content .learn-bottom .learn-item{
+    width: 270px;
+}
+.learn-content .learn-bottom .learn-item p{
+   width: 270px;
+   text-align: justify;
+}
 /* Projects */
 
 .projects-content .projects{
-    width: 400px;
+    width: 100vw;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+.projects-content .projects .project{
+    width: 270px;
 
+}
+.projects-content .projects .project img{
+    width: 270px;
+
+}
 /* Contact */
 
 .contact .content{
     flex-direction: column;
+    padding: 0;
     font-size: 20px;
 }
-.contact .content img{
+.contact .content p{
     width: 300px;
+    padding: 0;
 }
-
+.contact div .content{
+    padding: 0px;
+}
 /* Footer */
 
 footer{
@@ -105,6 +129,10 @@ footer{
     align-items: center;
     height: 130px;
     width: 100%;
-    bottom: 0;
-    left: 0;
+
+}
+footer div p{
+    width: 200px;
+    text-align: center;
+    display: flex;
 }
