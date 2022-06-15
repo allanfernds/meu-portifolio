@@ -1,13 +1,12 @@
-section{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 .top-bar-header{
+    width: 100%px;
     position: relative;
+
 }
 
 nav{
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,7 +14,7 @@ nav{
 
 }
 nav .logo{
-    font-size: 19px;
+    font-size: 16px;
 }
 .nav-itens ul{
     display: flex;
@@ -32,31 +31,23 @@ nav .logo{
 }
 
 /* Subtitle */
-.subtitle{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.subtitle{
-    align-items: center;
-    justify-content: center;
-}
+
 
 /* about */
 
 
 .about{
-    display: flex;
+
     flex-direction: column;
 }
 
-.about-content{
-    display: flex;
+.about .about-content{
+    width: 500px;
     flex-direction: column;
 }
 
 .about .about-content .about-info{
-    display: flex;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -68,12 +59,19 @@ nav .logo{
     justify-content: center;
 }
 
-/* Learn */
 
 .more-about{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 500px;
+}
+
+/* Learn */
+
+.learn-section .learn-content{
+    width: 400px;
+    padding: 15px 0;
 }
 
 .learn-section .learn-bottom{
@@ -83,6 +81,7 @@ nav .logo{
 /* Projects */
 
 .projects-content .projects{
+    width: 400px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -92,6 +91,7 @@ nav .logo{
 
 .contact .content{
     flex-direction: column;
+    font-size: 20px;
 }
 .contact .content img{
     width: 300px;
@@ -101,5 +101,12 @@ nav .logo{
 
 footer{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 130px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
 }
+
+
