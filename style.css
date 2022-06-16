@@ -27,8 +27,6 @@ nav{
     display:flex;
     align-items: center;
     justify-content: space-around;
-
-    padding: 15px;
     background-color: var(--preto-frente);
 
 }
@@ -157,7 +155,7 @@ main{
     color: #FFFFFF;
     padding-bottom: 20px;
 }
-button{
+.btn-download{
     width: 140px;
     height: 40px;
     color: var(--branco);
@@ -168,7 +166,7 @@ button{
     cursor: pointer;
     font-size: 15px;
 }
-button:hover{
+.btn-download:hover{
     background-color: var(--branco);
     color: var(--azul);
 }
@@ -393,3 +391,28 @@ footer{
     color: var(--branco);
 }
 
+#btn-mobile{
+    display: none;
+    margin: 10px;
+}
+
+@media (max-width: 780px) {
+
+    #btn-mobile{
+        display: block;
+        background-color: transparent;
+        border-color: transparent;
+        color: var(--branco);
+    }
+    #menu{
+        display: none;
+    }
+    #menu.active {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 10px;
+    }
+}

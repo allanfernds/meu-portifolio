@@ -20,19 +20,21 @@
 <body>
     <header class="top-bar-header">
         <nav>
-            <div class="logo">
-                <h2>Alan <span>Fernandes</span></h2>
-            </div>
-            <div class="nav-itens">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">Sobre</a></li>
-                    <li><a href="#estudos ">Estudos</a></li>
-                    <li><a href="#projetos">Portifolio</a></li>
-                    <li><a href="#contact">Contato</a></li>
-                    
+          
+            <nav id="nav">
+                <div class="logo">
+                    <h2>Alan <span>Fernandes</span></h2>
+                </div>
+                <button id="btn-mobile"><img src="assets/img/icons/list.png" alt="" width="24px"></button>
+
+                <ul id="menu">
+                    <li><a onclick="toggleMenu()" href="#home">Home</a></li>
+                    <li><a onclick="toggleMenu()" href="#about">Sobre</a></li>
+                    <li><a onclick="toggleMenu()" href="#estudos ">Estudos</a></li>
+                    <li><a onclick="toggleMenu()" href="#projetos">Portifolio</a></li>
+                    <li><a onclick="toggleMenu()" href="#contact">Contato</a></li>
                 </ul>
-            </div>
+            </nav>
         </nav> 
     </header>
   
@@ -52,10 +54,8 @@
                             <img src="assets/img/img-1.png">
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea expedita adipisci labore aspernatur beatae impedit, modi omnis dolorum nobis cum, laborum quam corrupti unde eius doloribus dolores! Illum tempore reiciendis ipsam, dolores in facilis libero, ex, eligendi id harum molestias beatae veniam est a nihil.
-                                <br>
-                               
                             </p>
-                            <button>
+                            <button class="btn-download">
                                 Download CV
                             </button>
                         </div>
@@ -171,5 +171,6 @@
             </div>
         </footer>
 
+        <script src="index.js"></script>
 </body>
 </html>
