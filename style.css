@@ -3,6 +3,8 @@
     --branco: #EAF0F2;
     --preto-fundo: #13141F;
     --preto-frente: #191b2d;
+
+
 }
 
 *{
@@ -29,6 +31,12 @@ nav{
     justify-content: space-around;
     background-color: var(--preto-frente);
 
+}
+#nav{
+    width: 100vh;;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 nav .logo{
 
@@ -402,13 +410,12 @@ footer{
         display: block;
         background-color: transparent;
         border-color: transparent;
-        color: var(--branco);
     }
     #menu{
         display: none;
     }
     #menu.active {
-
+        height: 200px;
         display: flex;
         flex-direction: column;
         justify-content: center;
