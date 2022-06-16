@@ -49,15 +49,18 @@ nav .logo{
 }
 
 .about .about-content .about-info{
- 
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.about .about-content .about-info img{
+   width: 150px;
+   height: 150px;
+}
 .about .about-content .about-info p{
-    width: 300px;
-    height: 270px;
-    text-align: center;
+    width: 80%;
+    
 }
 .about .more-about{
     flex-direction: column;
@@ -78,18 +81,24 @@ nav .logo{
 .learn-section .learn-content{
     width: 100vw;
     padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .learn-section .learn-bottom{
     width: 100vw;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .learn-content .learn-bottom .learn-item{
-    width: 270px;
+    width: 70%;
+    height: 300px;
+    padding: 20px 20px;
 }
 .learn-content .learn-bottom .learn-item p{
-   width: 270px;
-   text-align: justify;
+   width: 80%px;
 }
 /* Projects */
 
@@ -100,11 +109,12 @@ nav .logo{
     justify-content: center;
 }
 .projects-content .projects .project{
-    width: 270px;
+    width: 250px;
 
 }
 .projects-content .projects .project img{
-    width: 270px;
+    width: 100%;
+   
 
 }
 /* Contact */
@@ -113,8 +123,19 @@ nav .logo{
     flex-direction: column;
     padding: 0;
     font-size: 20px;
+    justify-content: center;
+    align-items: center;
 }
-.contact .content p{
+.contact .content .contact-list{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contact .content .contact-list a{
+    width: 50px;
+    font-size: 13px;
     width: 300px;
     padding: 0;
 }
