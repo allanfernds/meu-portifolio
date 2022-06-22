@@ -26,6 +26,7 @@ body{
 
 }
 nav{
+
     display:flex;
     align-items: center;
     justify-content: space-around;
@@ -90,6 +91,7 @@ main{
     width: 400px;
     text-align:center;
     font-weight: lighter;
+    width: 100%;
 }
 .about{
     display: flex;
@@ -158,7 +160,7 @@ main{
     font-weight: 400;
     font-size: 18px;
     line-height: 19px;
-    text-align: justify;
+    text-align: center;
 
     color: #FFFFFF;
     padding-bottom: 20px;
@@ -338,9 +340,7 @@ main{
     justify-content: center;
     align-items: center;
 }
-.contact h2{
-    margin: 40px;;
-}
+
 .contact .contact-section{
     color: var(--branco);
     display: flex;
@@ -366,6 +366,7 @@ main{
     margin: 20px;
 
 }
+
 .contact .content a{
     font-family: ubuntu;
     text-decoration: none;

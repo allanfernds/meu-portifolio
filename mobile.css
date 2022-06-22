@@ -37,7 +37,9 @@ nav .logo{
 
 /* Subtitle */
 
-.subtitle
+.subtitle h6{
+    display: flex;
+}
 
 /* about */
 
