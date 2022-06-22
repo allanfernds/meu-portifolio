@@ -148,21 +148,23 @@ main{
 }
 .about .about-content .about-info p{
     padding: 20px;
- 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     width: 363px;
     height: 210px;
-
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 19px;
     text-align: center;
-
     color: #FFFFFF;
     padding-bottom: 20px;
+}
+.btn-download a{
+    text-decoration: none;
+    color: var(--branco);
+}
+.btn-download a:hover{
+    text-decoration: none;
+    color: var(--azul);
 }
 .btn-download{
     width: 140px;
