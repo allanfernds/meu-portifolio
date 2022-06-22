@@ -88,10 +88,9 @@ main{
 .subtitle .content h6{
     color: grey;
     font-family: 'Times New Roman', Times, serif;
-    width: 400px;
     text-align:center;
     font-weight: lighter;
-    width: 100%;
+    width: 50%;
 }
 .about{
     display: flex;
