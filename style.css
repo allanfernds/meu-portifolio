@@ -10,7 +10,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: ubuntu;
+    font-family: ubuntu, sans-serif;
 
 }
 
@@ -181,7 +181,34 @@ main{
     background-color: var(--branco);
     color: var(--azul);
 }
+.about .about-content .skills-content{
+    display: flex;
+}
+.about .about-content .skills{
+ 
+    display: flex;
+}
+.about .about-content .skill {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    color: var(--azul);
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    font-family: ubuntu, sans-serif;
+    font-weight:bolder;
+}
+.about .about-content .skill img{
+    width: 70px;
+    height: 70px;
 
+}
+.about .about-content .skill p{
+    border-radius: 20px 0 20 0;
+}
 
 /* Mais sobre */
 

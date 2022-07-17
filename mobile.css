@@ -82,6 +82,30 @@ nav .logo{
     width: 400px;
 }
 
+.about .about-content .skills-content{
+    display: flex;
+    flex-direction: column;
+}
+.about .about-content .skills{
+ 
+    display: flex;
+
+}
+.about .about-content .skill {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    color: var(--azul);
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    font-family: ubuntu, sans-serif;
+    font-weight:bolder;
+}
+
+
 /* Learn */
 
 .learn-section .learn-content{
