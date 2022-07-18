@@ -183,6 +183,7 @@ main{
 }
 .about .about-content .skills-content{
     display: flex;
+    flex-wrap: wrap;
 }
 .about .about-content .skills{
  
@@ -216,12 +217,15 @@ main{
     width: 800px;
     height: 100%;
     margin-top: 10px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-items: center;
 }
-
+#skills-section{
+    margin: 0;
+}
 .about .more-about .content{
     margin: 0;
     display: flex;
