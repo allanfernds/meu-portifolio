@@ -188,6 +188,7 @@ main{
 .about .about-content .skills{
  
     display: flex;
+
 }
 .about .about-content .skill {
     margin: 15px;
